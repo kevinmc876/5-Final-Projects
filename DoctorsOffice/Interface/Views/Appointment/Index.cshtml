@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Interface.Models.Appointment>
+
+@{
+    ViewData["Title"] = "Appointments";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/Page.css" asp-append-version="true" />
+
+</head>
+
+
+
+<section class="container">
+
+    <h1> List of @ViewData["Title"] </h1>
+    <button class="btn action-button"><a asp-action="Create">Create New</a>  </button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Patient)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.VisitMethod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Doctor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AppointmentDateTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Created)
+                </th>
+                <th> Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Patient.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VisitMethod.MethodName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Doctor.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AppointmentDateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Created)
+                    </td>
+                    <td>
+                        <div class="button-container">
+                            <button class="action-button ">
+                                @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                            </button>
+                            <button class="action-button">
+                                @Html.ActionLink("Details", "Details", new { id = item.Id })
+                            </button>
+                            <button class="action-button">
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                            </button>
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</section>
+

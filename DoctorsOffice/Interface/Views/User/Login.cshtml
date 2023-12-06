@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout-Empty.cshtml";
+}
+
+@model User
+
+
+<h1>Login</h1>
+
+
+<form method="post">
+    <input asp-for="Username" />
+    <input asp-for="Password" />
+    <button type="submit">Login</button>
+</form>

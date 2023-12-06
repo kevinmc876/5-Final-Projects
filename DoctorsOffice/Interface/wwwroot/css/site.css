@@ -1,0 +1,30 @@
+html {
+    font-size: 14px;
+ 
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll; /* Add this to enable the vertical scrollbar */
+}
+
+body {
+    overflow-x:hidden;
+}
+
+/*---------------------------------------------------------------------*/
+
+:root {
+    --primary-color: #3498db; /* Replace with your desired color code */
+    --primary-font: 'Helvetica, Arial, sans-serif'; /* Replace with your desired font stack */
+}
+
+/*---------------------------------------------------------------------*/

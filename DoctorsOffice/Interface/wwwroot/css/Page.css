@@ -1,0 +1,91 @@
+.container {
+    position: relative;
+}
+
+
+.button-container {
+    display: flex;
+    width: auto;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+button,.action-button {
+    background-color: #007bff; /* Change the background color as desired */
+    color: #fff; /* Change the text color as desired */
+    border: none;
+    padding: 10px 15px;
+    width: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+    button a {
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+
+        .action-button:hover, button a:hover {
+            background-color: #67e9ef; /* Change the background color on hover as desired */
+            color: #FCE46E; /* Change the background color as desired */
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+
+table {
+    font-size: 12px;
+}
+
+tr, td, th, tbody {
+    font-size: 12px;
+}
+
+
+/* Style the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders into a single border */
+}
+
+/* Style table header row */
+thead {
+    background-color: #f2f2f2;
+}
+
+/* Style table body */
+tbody {
+    background-color: #fff;
+}
+
+/* Style table rows */
+tr {
+    border-bottom: 1px solid #ddd; /* Add a bottom border to separate rows */
+}
+
+/* Style table cells */
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+    /* Style the first column differently (e.g., make it bold) */
+    td:first-child {
+        font-weight: bold;
+    }
+
+    /* Style links inside table cells */
+    td a {
+        text-decoration: none;
+        color: #fff;
+    }

@@ -1,0 +1,191 @@
+
+:root {
+    --theme-color-1: #EDC9AF; /* A better color for theme 1 */
+    --theme-color-2: #fff; /* A better color for theme 2 */
+    --theme-color-4: #F4E6D3; /* A better color for theme 3 */
+     --theme-color-5: #dedede; /* A better color for theme 5 */
+    --text-color: #333; /* A common text color */
+    --section-height: 700px; /* Set the section height as needed */
+    --section-height2: 100vh; /* Set the section height as needed */
+    --section-height3: 200px; /* Set the section height as needed */
+    --section-height4: 200px; /* Set the section height as needed */
+    --font-style: 'Arial', sans-serif; /* Define the font style */
+}
+
+/* Banner section */
+#banner {
+    background-image: url("https://images.pexels.com/photos/931154/pexels-photo-931154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    margin-top: -40px;
+    text-align: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: var(--text-color);
+    text-align: center;
+    padding-inline: 100px;
+    height: var(--section-height);
+    font-family: var(--font-style);
+}
+
+    #banner .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(315deg, #99000000, #000000ff);
+    }
+/* Banner Styles */
+.banner-text {
+    background-image: url('your-image.jpg'); /* Add your banner image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color */
+}
+
+    .banner-text h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+
+
+/* Overlay for the Banner */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: -1;
+}
+
+
+/* Service section */
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-color-4);
+    color: var(--text-color);
+    padding: 20px;
+    height: var(--section-height2);
+    font-family: var(--font-style);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #0000007e, #1AF4E6D3);
+    z-index: -1;
+}
+
+
+#content {
+    padding-inline:50px;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    height: var(--section-height2);
+    font-family: var(--font-style);
+    margin-top: -30px;  
+}
+
+    #services h3 {
+        font-size: 20px;
+    }
+
+    #services p {
+        font-size: 16px;
+    }
+
+/* About us section */
+#about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 20px;
+    text-align: center;
+    height: var(--section-height2);
+    font-family: var(--font-style);
+}
+
+    #about-us h2 {
+        font-size: 24px;
+    }
+
+    #about-us p {
+        font-size: 16px;
+    }
+
+
+nav {
+    height:50px;
+    padding-inline:30px;
+    z-index:1;
+}
+
+
+
+
+/* this is the features for button*/
+.product-btn,, .action-button,  button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+    .product-btn:hover, .action-button:hover button:hover{
+        background-color: #0056b3;
+    }
+
+    .product-btn:focus,  .action-button:focus, button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+    }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.product-btn:active {
+    animation: pulse 0.3s;
+}
+

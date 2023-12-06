@@ -1,0 +1,91 @@
+﻿@model InventoryInterface.Models.ProductVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="container w-100 align-items-center justify-content-center">
+
+
+
+
+
+<h4>Add a new product to the database.</h4>
+<br />
+    <p> add the url of any image to the image section</p> <br />
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+                <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" hidden>
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group" hidden>
+                <label asp-for="CategoryId" class="control-label"></label>
+                <input asp-for="CategoryId" class="form-control" />
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group" hidden>
+                <label asp-for="sizeId" class="control-label"></label>
+                <input asp-for="sizeId" class="form-control" />
+                <span asp-validation-for="sizeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="row">
+
+            <div class="form-group col">
+                <label asp-for="SelectedCategory" class="control-label"></label>
+                <select asp-for="SelectedCategory" class="form-control" asp-items="@Model.CategoryList">
+                    <option disabled>Select Category</option>
+                </select>                <span asp-validation-for="SelectedCategory" class="text-danger"></span>
+            </div>
+            <div class="form-group col">
+                <label asp-for="SelectedSize" class="control-label"></label>
+                <select asp-for="SelectedSize" class="form-control" asp-items="@Model.SizeList">
+                    <option disabled>Select Size</option>
+                </select>
+                <span asp-validation-for="SelectedSize" class="text-danger"></span>
+            </div>
+
+                </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <br />
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+</div>

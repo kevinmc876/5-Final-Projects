@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmberStudentSystem", "AmberStudentSystem\AmberStudentSystem.csproj", "{4F69D616-61AD-47FF-BDEC-8B9A3A5561FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmberEnrollmentInterface", "AmberEnrollmentInterface\AmberEnrollmentInterface.csproj", "{F3AF044A-236A-4A3B-BD78-752ED6EC3714}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F69D616-61AD-47FF-BDEC-8B9A3A5561FF} = {4F69D616-61AD-47FF-BDEC-8B9A3A5561FF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F69D616-61AD-47FF-BDEC-8B9A3A5561FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F69D616-61AD-47FF-BDEC-8B9A3A5561FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F69D616-61AD-47FF-BDEC-8B9A3A5561FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F69D616-61AD-47FF-BDEC-8B9A3A5561FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AF044A-236A-4A3B-BD78-752ED6EC3714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AF044A-236A-4A3B-BD78-752ED6EC3714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AF044A-236A-4A3B-BD78-752ED6EC3714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AF044A-236A-4A3B-BD78-752ED6EC3714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2120B3A5-ADF0-42F0-8452-53F39ECE800F}
+	EndGlobalSection
+EndGlobal

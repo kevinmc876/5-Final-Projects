@@ -1,0 +1,67 @@
+#banner {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+    #banner h1 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    #banner p {
+        font-size: 18px;
+        color: #777;
+    }
+
+/* Fonts and text section */
+#fonts-text {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+    #fonts-text h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    #fonts-text p {
+        font-size: 16px;
+        color: #777;
+    }
+
+/* Service section */
+#services {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+    #services h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    #services p {
+        font-size: 16px;
+        color: #777;
+    }
+
+/* About us section */
+#about-us {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+    #about-us h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    #about-us p {
+        font-size: 16px;
+        color: #777;
+    }

@@ -1,0 +1,58 @@
+/* Common styles for sections */
+.section {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-inline: 100px;
+}
+
+.HomeImage {
+    width: 400px;
+    height: 550px;
+    border-radius: 18px;
+    background-image: url("https://images.unsplash.com/photo-1611764461465-09162da6465a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80");
+    background: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+
+
+
+
+/* Specific styles for system description and features */
+.system-description p {
+    line-height: 1.6;
+}
+
+.system-features ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Responsive styles for smaller screens (up to 800px) */
+@media (max-width: 800px) {
+    header h1, h2 {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    /* Adjust styles for HomeImage to fit smaller screens */
+    .HomeImage {
+        width: 100%; /* Make the image full-width on small screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Additional media query for larger screens (greater than 800px) */
+@media (min-width: 801px) {
+    /* Add styles for larger screens here */
+    .section {
+        margin-inline: 20px; /* Adjust the margin for larger screens */
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}

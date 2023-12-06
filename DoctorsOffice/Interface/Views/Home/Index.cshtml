@@ -1,0 +1,185 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/HomePage.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-EIHSLmQdXWucAJUTN+pYwrtw6N5XGIE22n+YJfW17dncE2o7Irdod7yTPTtcwFkK" crossorigin="anonymous">
+
+    <!-- Include jQuery from CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Include Bootstrap JavaScript from CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <!-- this is a place holder-->
+
+</head>
+
+
+<style>
+    .container {
+        margin-inline: 20%;
+        position: relative;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .section {
+        height: 110vh;
+        width: 100%;
+        flex-direction: column;
+        padding-inline: 100px;
+        margin-left:-10px;
+        scroll-snap-align: start;
+        box-sizing: border-box;
+        display: flex;
+        text-align: left;
+    }
+
+    #home {
+        background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1489769002049-ccd828976a6c?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+        display: flex;
+        flex-direction: column;
+       
+        text-align: left;
+        color: white;
+        padding: 0 50px; /* Use shorthand padding property */
+    }
+
+    #features {
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #support {
+       background-color: #C8C8C8;
+       display: flex;
+       padding-top:50px;
+       text-align: left;
+    }
+
+    .contact-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-info {
+        flex: 1;
+        margin-top:20px;
+        padding: 20px;
+        background-color: #f0f0f0;
+        border-radius: 12px;
+        height: 60%;
+    }
+
+    .map {
+        flex: 1;
+        padding: 20px;
+    }
+
+        .map iframe {
+            width: 100%;
+            height: 70%;
+            border-radius: 12px;
+            border: 1px solid black;
+        }
+
+    .head-text{
+        margin-top:-250px;
+        margin-left:50%;
+        font-weight:bolder;
+    }
+
+    .head-text h{
+
+</style>
+
+
+
+<section class="section d-flex" id="home">
+
+    <div class="head-text">
+        <h1>
+            Welcome to Stonyhill Medical
+        </h1>
+        <br />
+        <p>
+            We Make Health our Profession
+        </p>
+
+
+    </div>
+  
+
+
+</section>
+<section class="section" id="features">
+    <h3>Features Section</h3>
+    <br />
+
+    <h4>About StonyHill Medical Center</h4>
+    <p>
+        Welcome to StonyHill Medical Center, a local doctor's office with a dedicated team of 3 experienced doctors.
+        Our mission is to provide high-quality healthcare and offer a better organized appointment system for our valued
+        patients.
+
+    </p>
+    <h5>Appointment System</h5>
+    <p>
+        At StonyHill Medical Center, we understand the importance of efficient appointment scheduling.
+        Our receptionists are here to assist you, whether you prefer to set an appointment over the phone or during
+        an in-person visit. We'll work with you to find the most convenient date and time for your appointment.
+    </p>
+    <h5>Key Features</h5>
+    <p>
+        Our appointment system incorporates a range of features to streamline the process.
+        We use CRUD (Create, Read, Update, Delete) functionality to maintain patient records and appointment data. 
+        Additionally, we've implemented JavaScript to enhance the user experience. You'll have access to a user-friendly
+        interface with the option to switch to a night mode for better visibility, and you can easily scroll through
+        the information with just a click.
+    </p>
+
+    <p>We take pride in our commitment to patient-centered care and ensuring that your healthcare needs are met promptly and 
+        efficiently. Your health is our priority, and our appointments system is just one of the ways we strive to make your
+        experience with us as smooth and stress-free as possible.</p>
+
+    <p>Thank you for entrusting your healthcare needs to our local doctor's office. We look forward to serving you and 
+        keeping you in good health.</p>
+
+
+
+</section>
+<section class="section" id="support">
+    <h1>Support Section</h1>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>
+                Stonyhill Medical Center
+            </p>
+            <p>
+                Phone: (123) 456-7890
+            </p>
+            <p>
+                Email: info@stonyhillmedical.com
+            </p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.775251315935!2d-76.79966928943819!3d18.081956282354287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb3dc3f81b2243%3A0x646b126b3ea6b6ef!2sStonyhill%20Medical%20Centre!5e0!3m2!1sen!2sjm!4v1699297307647!5m2!1sen!2sjm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+</section>
+

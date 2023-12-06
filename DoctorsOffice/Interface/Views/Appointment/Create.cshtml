@@ -1,0 +1,100 @@
+﻿@model Interface.Models.AppointmentVM
+
+
+@{
+    ViewData["Title"] = " Add a New Record to the Database";
+}
+
+
+
+
+<head>
+    <link rel="stylesheet" href="~/css/Page.css" asp-append-version="true" />
+
+</head>
+
+
+<section class="container">
+
+<h1> @ViewData["Title"]</h1>
+
+
+
+
+<h1>Create</h1>
+
+<h4>AppointmentVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" hidden>
+                <label asp-for="Id" class="control-label" hidden></label>
+                <input asp-for="Id" class="form-control" hidden />
+            </div>
+            <div class="form-group">
+                <label asp-for="PatientId" class="control-label"></label>
+                    <!-- Drop down menu-->
+
+                    <select asp-for="PatientId" class="form-control" asp-items="@Model.PatientList">
+                        <option disabled selected>Select Patient</option>
+                    </select>
+
+                    <span asp-validation-for="PatientId" class="text-danger"></span>
+
+        
+            </div>
+            <div class="form-group">
+                <label asp-for="VisitMethodId" class="control-label"></label>
+              <!-- Drop down menu-->
+
+                    <select asp-for="VisitMethodId" class="form-control" asp-items="@Model.VisitMethodList">
+                        <option disabled selected>Select Method</option>
+                    </select>
+
+                    <span asp-validation-for="VisitMethodId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DoctorId" class="control-label"></label>
+                    <!-- Drop down menu-->
+                    <select asp-for="DoctorId" class="form-control" asp-items="@Model.Doctorlist">
+                        <option disabled selected>Select Doctor</option>
+                    </select>
+                    <span asp-validation-for="DoctorId" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AppointmentDateTime" class="control-label"></label>
+                <input asp-for="AppointmentDateTime" class="form-control" />
+                <span asp-validation-for="AppointmentDateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Created" class="control-label"></label>
+                <input asp-for="Created" class="form-control" />
+                <span asp-validation-for="Created" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+</section>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

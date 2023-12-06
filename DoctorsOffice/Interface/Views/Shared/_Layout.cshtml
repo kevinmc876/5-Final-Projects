@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Interface</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Interface.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xjyEnWV5ST+JZAvxh4FVFAh/LTlqAO+m5vo0+JqCto06wrgjvyF0ZFojVA8VriSLv" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-Vk5GRv4DEi6e1rGL9p6sOf3I5OGpKc8MQ/L3tXbqta/WR5FAzp5QfaEWj2F5rwnM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,700;1,8..60,600&family=Young+Serif&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+
+
+
+    <div >
+
+        <div>
+            @Html.Partial("_DashBoard.cshtml")
+        </div>
+     
+            <main role="main" class="pb-3">
+      
+                @RenderBody()
+            </main>
+  
+
+
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            if (body.classList.contains("light-theme")) {
+                body.classList.remove("light-theme");
+                body.classList.add("dark-theme");
+                localStorage.setItem("theme", "dark");
+            } else {
+                body.classList.remove("dark-theme");
+                body.classList.add("light-theme");
+                localStorage.setItem("theme", "light");
+            }
+        }
+
+        // Check for user's theme preference from local storage
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme) {
+            document.body.classList.add(savedTheme + "-theme");
+        }
+
+    </script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,231 @@
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.AssemblyReference.cache
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.AssemblyInfoInputs.cache
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.AssemblyInfo.cs
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.CoreCompileInputs.cache
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\appsettings.json
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.exe
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.deps.json
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.runtimeconfig.json
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.pdb
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Humanizer.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.AmberStudentSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.build.AmberStudentSystem.props
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AmberStudentSystem.props
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AmberStudentSystem.props
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\scopedcss\bundle\AmberStudentSystem.styles.css
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.CopyComplete
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\refint\AmberStudentSystem.dll
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.pdb
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.genruntimeconfig.cache
+C:\Users\mclea\source\repos\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\ref\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\appsettings.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.exe
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.deps.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.runtimeconfig.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.pdb
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Humanizer.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.AssemblyInfo.cs
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.AmberStudentSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.build.AmberStudentSystem.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AmberStudentSystem.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AmberStudentSystem.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\scopedcss\bundle\AmberStudentSystem.styles.css
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.CopyComplete
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\refint\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.pdb
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.genruntimeconfig.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\DOWNLOADS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\ref\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\appsettings.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.exe
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.deps.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.runtimeconfig.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\AmberStudentSystem.pdb
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Humanizer.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.AssemblyInfo.cs
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.AmberStudentSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.build.AmberStudentSystem.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AmberStudentSystem.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AmberStudentSystem.props
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\scopedcss\bundle\AmberStudentSystem.styles.css
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.csproj.CopyComplete
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\refint\AmberStudentSystem.dll
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.pdb
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\AmberStudentSystem.genruntimeconfig.cache
+C:\Users\kevin\OneDrive\Desktop\.NET Projects\COMPLETED ASSIGNMENTS\EnrollmentAPI\EnrollmentAPI\AmberStudentSystem\obj\Debug\net7.0\ref\AmberStudentSystem.dll

@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Theme.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="<KEY>" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="<KEY>" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="<KEY>" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    #banner h1{
+        font-size: 40px;
+        color: black;
+        font-weight: bold;
+        width: 450px;
+    
+    }
+
+    #banner p {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        font-style: italic; 
+    }
+
+    #About{
+        height:90vh;
+        padding-top:150px;
+     
+    }
+
+
+</style>
+
+
+
+
+<content>
+    <section id="banner">
+
+        <div class="d-flex justify-content-between ">
+          <div class=" banner-text" align="center">
+            <p>Our Business is making you look Good</p>
+                <button type="submit" class="btn btn-primary">
+                    <a asp-action="Index" asp-controller="Product" style="color: white; text-decoration:none;">Inventory</a>
+                </button>
+            </div>
+        <div></div>
+        </div>
+    
+       
+        <div class="overlay"></div>
+
+
+      
+    </section>
+
+
+
+    <!-- About us section -->
+    <section id="About">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ac felis cursus, nec consequat
+                felis iaculis. Suspendisse faucibus, lacus id finibus fringilla, nunc nisl lacinia turpis, at aliquam nulla
+                massa a nibh.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ac felis cursus, nec consequat
+                felis iaculis. Suspendisse faucibus, lacus id finibus fringilla, nunc nisl lacinia turpis, at aliquam nulla
+                massa a nibh.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ac felis cursus, nec consequat
+                felis iaculis. Suspendisse faucibus, lacus id finibus fringilla, nunc nisl lacinia turpis, at aliquam nulla
+                massa a nibh.   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ac felis cursus, nec consequat
+                felis iaculis. Suspendisse faucibus, lacus id finibus fringilla, nunc nisl lacinia turpis, at aliquam nulla
+                massa a nibh.
+            </p>
+        </div>
+    </section>
+
+
+
+
+
+</content>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
