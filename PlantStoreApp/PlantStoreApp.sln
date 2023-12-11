@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantStoreApi", "PlantStoreApi\PlantStoreApi.csproj", "{8E7EB512-23CB-4F81-A22C-9E1339B0BCC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{05AA96AA-4DFA-46B0-ABA4-4A94EA18188A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21673455-8D08-4793-9C28-BD5E4AC1B377}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E7EB512-23CB-4F81-A22C-9E1339B0BCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7EB512-23CB-4F81-A22C-9E1339B0BCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7EB512-23CB-4F81-A22C-9E1339B0BCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7EB512-23CB-4F81-A22C-9E1339B0BCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AA96AA-4DFA-46B0-ABA4-4A94EA18188A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AA96AA-4DFA-46B0-ABA4-4A94EA18188A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AA96AA-4DFA-46B0-ABA4-4A94EA18188A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AA96AA-4DFA-46B0-ABA4-4A94EA18188A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8624E4DA-F6C5-4346-ADD5-5E9B0F82717E}
+	EndGlobalSection
+EndGlobal

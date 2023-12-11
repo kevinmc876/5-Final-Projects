@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<style>
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .content h4 {
+            color: rgb(225, 110, 50);
+        }
+
+
+    .page-button{
+        background-color: rgb(225, 110, 50);
+        font-weight: bold;
+        color:white;
+        border:none;
+        border-radius:12px;
+    }
+
+    .page-button a{
+        font-weight: bold;
+        color: white;
+    }
+
+        .content p {
+            line-height: 2.5em;
+        }
+
+        .content > div {
+            width: calc(50% - 20px); /* Two columns, considering margins or paddings */
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+    .image-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        /* Adjust image-box styles as needed */
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            /* Other image styles */
+        }
+
+</style>
+
+<div class="content">
+    <div class="py-5">
+        <h4>Adoption Method 1: Fill Out Adopter's Form</h4>
+        <p>The plant adoption process involves filling out an adopter's form. Once the form is processed and approved, we will contact you either through a phone call or via email.</p>
+        <button class="btn btn-primary page-button" type="button">
+            <a class="nav-link" asp-controller="AdoptersForm" asp-action="create"> Click Here</a>
+
+        </button>
+    </div>
+    <div class="image-box">
+        <!-- Your image or content for the image box goes here -->
+        <!-- For example: -->
+        <img src="https://img.freepik.com/free-vector/completed-steps-concept-illustration_114360-5521.jpg?w=740&t=st=1701292270~exp=1701292870~hmac=b11807993eb8f2ab04d9d67607d8def815db5a78bbc8f8216d3e8ba11eb5414f" alt="Image for Method 1">
+  
+
+    </div>
+    <br />
+    <div class="py-5">
+        <h4>Adoption Method 2: Contact Customer Service</h4>
+        <p>Alternatively, you can reach out to our website's customer service number. An agent will assist you in filling out the adopter's information, and we will proceed with processing the provided information accordingly.</p>
+        <button class="btn btn-primary  page-button" type="button">
+            <a class="nav-link" asp-controller="Home" asp-action="ContactUs"> Click Here</a>
+
+        </button>
+
+    </div>
+    <div class="image-box">
+        <!-- Your image or content for the image box goes here -->
+        <!-- For example: -->
+        <img src="https://img.freepik.com/free-vector/online-page-concept-illustration_114360-3899.jpg?w=740&t=st=1701292360~exp=1701292960~hmac=ab339db2f758030ac0886b801a49fe52c30180d4757ce340e0bd85df6fbcc316" alt="Image for Method 2">
+    </div>
+</div>

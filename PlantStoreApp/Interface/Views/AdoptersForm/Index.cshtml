@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Interface.Models.Adopter>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="content">
+
+    <h1>List of Adoption.</h1>
+
+    <p>
+        <a asp-action="Create" class=" btn btn-primary">Create New</a>
+    </p>
+    <table class="table styled-table shadow">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Age)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DOB)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Parish)
+                </th>
+                <th> Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Age)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DOB)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Parish)
+                    </td>
+                    <td class="w-25">
+                        <a asp-action="Edit" asp-route-id="@item.ID" class=" btn btn-primary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.ID" class=" btn btn-primary">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID" class=" btn btn-primary">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+
+</div>
+
+
+
+<style>
+    /* Basic styles for the table */
+    .styled-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 20px;
+    }
+
+        /* Table header styles */
+        .styled-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Table body styles */
+        .styled-table td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Alternate row background color */
+        .styled-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Hover effect on rows */
+        .styled-table tbody tr:hover {
+            background-color: #e2e2e2;
+        }
+
+
+
+    .content {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+</style>

@@ -1,0 +1,127 @@
+﻿<head>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<nav class="navbar navbar-expand-lg" style="">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+            <i class="fas fa-clover" style="color: #58ab58; outline: 1px solid #58ab58; "></i> <!-- Font Awesome clover icon -->
+            <span style="color: #58ab58; outline: 1px solid #58ab58; font-weight:bolder;padding:10px; ">Botanic Bliss</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                <!------------------------------------------------------------------------------------------------------------->
+                <!-- Home Option-->
+
+
+<li><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+
+
+
+
+                <!------------------------------------------------------------------------------------------------------------->
+                <!-- Plant Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Plants
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownHome">
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Plants" asp-action="Index">Plant Catalog</a></li>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Plants" asp-action="Create">Plant Create</a>
+                            </li>
+
+                        }
+
+                    </ul>
+                </li>
+                <!------------------------------------------------------------------------------------------------------------->
+                <!-- Adoption Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Adoption
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownHome">
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="AdoptionProcess">Adoption Process</a></li>
+                        <li><a class="dropdown-item" asp-area="" asp-controller="AdoptersForm" asp-action="Create">Adoption Application</a></li>
+
+                        @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="AdopterForm" asp-action=" Create"> User Adopter Create</a>
+                            </li>
+                  
+                        }
+
+             
+
+                    </ul>
+                </li>
+                <!------------------------------------------------------------------------------------------------------------->
+                <!-- Information Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Information
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownHome">
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="FAQ">FAQ</a></li>
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="AboutUs"> About Us</a></li>
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact </a></li>
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Testimonials"> Testimonials</a></li>
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="TermsAndConditions"> Terms And Conditions</a></li>
+
+
+                    </ul>
+                </li>
+
+                @if (User.IsInRole("Admin"))
+                {
+     
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                          Administration
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownHome">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="AdoptersForm" asp-action=" Create">Adoption Form Create</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="AdoptersForm" asp-action="Index"> User Adopter List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="AdoptionForm" asp-action="Index"> Adoption Request List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
+
+                }
+            </ul>
+            @* Insert partial page for login on navbar *@
+            <partial name="_LoginPartial.cshtml">
+        </div>
+    </div>
+</nav>

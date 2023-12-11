@@ -1,0 +1,116 @@
+﻿@model IEnumerable<PlantInterface.Models.Plant>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<content id="content" class="py-5">
+    <section class="px-1">
+        <h1 class="fw-bold">Listing of our Products</h1>
+
+        <button class="btn btn-primary">
+            <a asp-action="Create" style="color: white; text-decoration:none;">Create New</a>
+        </button>
+        <br />
+
+        <div class="card-container">
+            @foreach (var item in Model)
+            {
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label>Product ID: </label>
+                                    @Html.DisplayFor(modelItem => item.ID)
+                                </td>
+                                <td>
+                                    <label>Title: </label>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    <img src="@Html.DisplayFor(modelItem => item.ImageURL)" />
+                                </td>
+                                <td>
+                                    <label>Quantity:</label>
+                                    @Html.DisplayFor(modelItem => item.Description)
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="card-overlay">
+                        <a href="@Url.Action("Edit", new { id = item.ID })">Edit</a>
+                        <a href="@Url.Action("Details", new { id = item.ID })">Details</a>
+                        <a href="@Url.Action("Delete", new { id = item.ID })">Delete</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+</content>
+
+<style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card {
+        width: 30%;
+        border: 1px solid #ccc;
+        background-color: #ccce;
+        padding: 10px;
+        transition: transform 0.3s;
+        position: relative;
+    }
+
+        .card img {
+            width: 150px;
+            height: 120px;
+            mix-blend-mode: color-burn;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+    .card-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s linear;
+    }
+
+    .card:hover .card-overlay {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .card-overlay a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+        .card-overlay a:hover {
+            text-decoration: underline;
+        }
+
+    table {
+        width: 100%;
+    }
+
+        table label {
+            font-weight: bold;
+        }
+
+    .action-button a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+</style>

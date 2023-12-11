@@ -1,0 +1,119 @@
+﻿@model IEnumerable<Interface.Models.AdoptionRequest>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<content>
+
+    <h1>List of Adoption Applications</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.RequestDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Message)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ApprovalStatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Adopter)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Plant)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RequestDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Message)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ApprovalStatus)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Adopter.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Plant.Name)
+                    </td>
+                    <td class="w-25">
+                        <a asp-action="Edit" asp-route-id="@item.ID" class=" btn btn-primary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.ID" class=" btn btn-primary">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID" class=" btn btn-primary">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+</content>
+
+
+
+
+
+<style>
+    /* Basic styles for the table */
+    .styled-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 20px;
+    }
+
+        /* Table header styles */
+        .styled-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Table body styles */
+        .styled-table td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Alternate row background color */
+        .styled-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Hover effect on rows */
+        .styled-table tbody tr:hover {
+            background-color: #e2e2e2;
+        }
+
+
+
+    .content {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+</style>

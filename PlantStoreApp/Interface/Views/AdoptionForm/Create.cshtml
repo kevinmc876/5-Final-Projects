@@ -1,0 +1,98 @@
+﻿@model Interface.Models.AdoptionRequestVM
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 50px 0;
+        padding: 20px;
+    }
+
+    body {
+        background-color: #ededed;
+    }
+
+    .adoption-message {
+        font-weight: bold;
+        color: rgb(83, 83, 83);
+        line-height: 2rem;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 form mb-5">
+          
+            <h4>List of Aopters</h4>
+            <form asp-action="Create">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="form-group">
+                    <select asp-for="SelectedPlantID" class="form-control" asp-items="@Model.Plantlist">
+                        <option disabled selected>Select a Plant</option>
+                    </select>
+                    <span asp-validation-for="SelectedPlantID" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <select asp-for="SelectedAdopterID" class="form-control" asp-items="@Model.Adopterlist">
+                        <option disabled selected>Select an Adopter</option>
+                    </select>
+                    <span asp-validation-for="SelectedAdopterID" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input asp-for="RequestDate" class="form-control" />
+                    <span asp-validation-for="RequestDate" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input asp-for="Status" class="form-control" />
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Message" class="control-label">Message:</label>
+                    <input asp-for="Message" class="form-control" />
+                    <span asp-validation-for="Message" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-check" hidden>
+                    <input class="form-check-input" asp-for="ApprovalStatus" />
+                    <label class="form-check-label" for="ApprovalStatus"> @Html.DisplayNameFor(model => model.ApprovalStatus)</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+        <div class="col mt-5">
+            <p class="adoption-message">
+                * Ready to embrace nature's beauty? Complete our adoption form today and welcome a new plant into your home! Join Botanic Bliss in nurturing greenery for a sustainable tomorrow. Let's grow together!
+            </p>
+
+            <p>
+                Let us know your love for being a plant parent in the message section.
+            </p>
+        </div>
+    </div>
+</div>

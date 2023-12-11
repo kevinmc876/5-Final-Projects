@@ -1,0 +1,228 @@
+
+
+
+.HomePage .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: none !important;
+}
+
+
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(5, 142, 103);
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* Carousel item image */
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    filter: grayscale(70%);
+    object-fit: cover;
+}
+
+/* Carousel indicators */
+.carousel-indicators li {
+    background-color: #007bff;
+}
+
+/* Active carousel indicator */
+.carousel-indicators .active {
+    background-color: #0056b3;
+}
+
+/* Active carousel indicator */
+.carousel-indicators .active {
+    background-color: #0056b3;
+}
+
+
+
+/* =========================================================================================================================== */
+
+.Center-text {
+    position: absolute;
+    top:20%;
+    left: 10%;
+    height: 300px;
+    background-color: rgba(5, 33, 54, 0.64);
+    /*  transform: translate(-20%, -50%);*/
+  
+}
+
+.Center-text {
+ 
+    padding: 50px 20px;
+    background-color: #3c011912;
+}
+
+    .Center-text h1 {
+        font-size: 2.5em;
+        font-weight: bolder;
+        font-palette: rgba(255, 255, 255);
+        color: var(--secondary-color);
+        margin-bottom: 20px;
+    }
+
+    .Center-text p {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 30px;
+        font-style:italic;
+    }
+
+.Center-text-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .Center-text-btn:hover {
+        background-color: #0056b3;
+    }
+
+
+
+/* ===================================================================================================================== */
+
+
+.home-section {
+    background-color: #f8f9fa;
+    padding: 50px 10px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    height: auto;
+    width: 100%;
+}
+
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+    /* Image styles */
+    .flex-container img {
+        width: 350px;
+        height: 350px;
+        margin: 4px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    /* this is the updated root file*/
+
+
+/* Theme and root settings */
+
+:root {
+    --primary-color2: #0a2342;
+    --secondary-color: #1B806C;
+    --tertiary-color: #84bc9c;
+    --background-color: #fffdf7;
+    --accent-color: #f46197;
+}
+
+
+/* Example usage */
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+/* You can use these variables throughout your CSS */
+/* For example: */
+a {
+    color: var(--secondary-color);
+}
+
+.button {
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    border: 2px solid var(--secondary-color);
+}
+
+
+/* General styles */
+body {
+    font-family: var(--font-family-primary);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Banner styles */
+.banner {
+    background-color: var(--secondary-color);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+
+/* Logo */
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(5, 142, 103);
+    text-decoration: none;
+    font-style: italic;
+    /* Additional Logo Styles */
+}
+
+/* Carousel styles */
+#carouselExampleIndicators {
+    max-width: 1800px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: -300px;
+    /* Additional Carousel Styles */
+}
+
+
+/* Home section */
+.home-section {
+    background-color: #f8f9fa;
+    padding: 50px 10px;
+    text-align: left;
+    font-size: 20px;
+    font-family: var(--font-family-secondary);
+    /* Additional Home Section Styles */
+}
+
+/* Flex container */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* Additional Flex Container Styles */
+}
+
+    /* Image styles */
+    .flex-container img {
+        width: 350px;
+        height: 350px;
+        margin: 4px;
+        object-fit: cover;
+        border-radius: 10px;
+        /* Additional Image Styles */
+    }

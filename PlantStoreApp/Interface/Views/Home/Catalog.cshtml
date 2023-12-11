@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Interface.Models.Plant>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<content id="" class="">
+    <section >
+       
+
+
+        <div class="card-container">
+
+
+            @foreach (var item in Model)
+            {
+                <div>
+
+
+                    <div class="card shadow">
+                        <img src="@Html.DisplayFor(modelItem => item.ImageURL)" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                            <p class="card-text">Age: @Html.DisplayFor(modelItem => item.Age)</p>
+
+                        </div>
+                        <div class="card-overlay">
+                            <a href="@Url.Action("Details", new { id = item.ID })">Info</a>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            }
+
+            </div>
+    </section>
+</content>
+
+<style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        gap: 30px;
+        width: 80%;
+        top:15%;
+        left:10%;
+        height: auto;
+        padding:0px;
+
+    }
+
+    section {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width:90%;
+        margin-right:-100px;
+        margin-left: -100px;
+    }
+
+
+    .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+
+    .card img {
+        width: 18rem;
+        height: 13rem;
+        border: 1px solid grey;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .card {
+        position: relative;
+        text-decoration: none;
+        background-color: rgb(215, 228, 226);
+        border-radius: 8px 8px 8px 8px;
+        /* Other styles for your card */
+    }
+
+    .card-overlay, .card-overlay:hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        color: white;
+        padding: 5px;
+        background-color: rgba(161, 191, 186, 0.67);
+        text-decoration: none;
+        /* Other styles for your overlay */
+    }
+
+        .card-overlay:hover {
+            padding: 9px;
+        }
+
+
+    .card-title {
+        color: rgb(72, 135, 124);
+        font-size: 26px;
+    }
+
+    .card-overlay a {
+        color: white;
+        font-weight: bold;
+        /* Other styles for your overlay */
+    }
+
+    .card:hover .card-overlay {
+        display: block; /* Show the overlay on hover */
+    }
+
+</style>

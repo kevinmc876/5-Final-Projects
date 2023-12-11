@@ -1,0 +1,150 @@
+﻿@model Interface.Models.Plant
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Custom CSS for the e-commerce product details page */
+
+</style>
+
+<div class="container  d-flex row">
+    <div class="product-details d-flex">
+        <img src=" @Html.DisplayFor(model => model.ImageURL)" alt="Product Image">
+
+        <table class="table table-bordered w-100">
+            <tr>
+                <th class="text-uppercase">Name</th>
+                <td>@Html.DisplayFor(model => model.Name)</td>
+            </tr>
+            <tr>
+                <th class="text-uppercase">Description</th>
+                <td>@Html.DisplayFor(model => model.Description)</td>
+            </tr>
+            <tr>
+                <th class="text-uppercase">Age</th>
+                <td>@Html.DisplayFor(model => model.Age)</td>
+            </tr>
+            <tr>
+                <th class="text-uppercase">Species</th>
+                <td>@Html.DisplayFor(model => model.Species)</td>
+            </tr>
+            <tr>
+                <th class="text-uppercase">Availability Status</th>
+                <td>@Html.DisplayFor(model => model.AvailabilityStatus)</td>
+            </tr>
+            <tr>
+                <th class="text-uppercase">Adoption Status</th>
+                <td>@Html.DisplayFor(model => model.AdoptionStatus)</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+<button class=" btn button">
+
+    <a asp-action="Index">Back to List</a>
+</button>
+
+
+
+
+<style>
+    /* Additional CSS for custom styling */
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .product-details {
+        max-width: 900px;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+        .product-details img {
+            max-width: 60%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .product-details th,
+        .product-details td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .product-details th {
+            text-align: left;
+        }
+
+        .product-details td {
+            vertical-align: top;
+        }
+
+
+
+
+
+
+    .product-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 30px;
+        width: 100%;
+        padding: 30px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+        .product-details img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+    table {
+        width: 170%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th,
+    td {
+        border: 1px solid #eaeaea;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+    }
+
+    .product-details th:first-child,
+    .product-details td:first-child {
+        width: 20%;
+        font-weight: bold;
+    }
+
+    /* Media query for smaller screens */
+    .product-details th,
+    .product-details td:first-child {
+        width: 100%;
+        font-weight: normal;
+    }
+
+
+
+</style>

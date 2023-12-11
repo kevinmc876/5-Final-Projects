@@ -1,0 +1,150 @@
+﻿@model Interface.Models.Plant
+
+@{
+    ViewData["Title"] = "PlantDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<head>
+    <style>
+
+        /* Style for checkbox container */
+        .checkbox-container {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px; /* Adjust the margin as needed */
+        }
+
+            /* Hide the default checkbox */
+            .checkbox-container input[type="checkbox"] {
+                display: none;
+            }
+
+                /* Style for custom checkbox */
+                .checkbox-container input[type="checkbox"] + label {
+                    position: relative;
+                    padding-left: 25px; /* Adjust the padding to create space for custom checkbox */
+                    cursor: pointer;
+                }
+
+                    /* Create the custom checkbox */
+                    .checkbox-container input[type="checkbox"] + label:before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 2px;
+                        width: 18px;
+                        height: 18px;
+                        border: 1px solid #aaa; /* Border color */
+                        background-color: #fff; /* Checkbox background color */
+                    }
+
+                /* Style for checked state */
+                .checkbox-container input[type="checkbox"]:checked + label:before {
+                    background-color: #2196F3; /* Change to your desired checked background color */
+                }
+
+                /* Checkmark icon */
+                .checkbox-container input[type="checkbox"] + label:after {
+                    content: '\2713'; /* Checkmark symbol */
+                    position: absolute;
+                    top: 1px;
+                    left: 4px;
+                    font-size: 14px; /* Adjust the size of the checkmark */
+                    color: #fff; /* Checkmark color */
+                    display: none;
+                }
+
+                /* Show checkmark for checked state */
+                .checkbox-container input[type="checkbox"]:checked + label:after {
+                    display: block;
+                }
+
+        .boxColor{
+            padding:30px 60px;
+            color:rgb(167, 76, 37);
+            border-radius:12px;
+            background-color: rgb(255, 214, 198);
+
+        }
+
+        .card-title{
+            font-size: 32px;
+            border-bottom: 1px solid;
+        }
+
+    </style>
+</head>
+
+<h1>PlantDetails</h1>
+
+<div class="my-5">
+    <div class="row d-flex">
+
+
+        <img src="@Html.DisplayFor(model => model.ImageURL)" class="col" />
+
+
+       <div class="col shadow boxColor">
+            <dl class="row">
+
+                <div class="row d-flex card-title">
+
+                        @Html.DisplayNameFor(model => model.Name) :
+               
+                        @Html.DisplayFor(model => model.Name)
+                    
+                </div>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Description) 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Age) 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Age)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Species) 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Species)
+                </dd>
+
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.AvailabilityStatus)
+                </dt>
+
+                <dd class="col-sm-10 checkbox-container">
+                    @{
+                        bool isChecked = Model.AvailabilityStatus; // Assuming AvailabilityStatus is a boolean property
+                    }
+
+                    <input type="checkbox" id="availabilityCheckbox" name="availabilityCheckbox" @(isChecked ? "checked" : "") disabled />
+                    
+                </dd>
+
+            </dl>
+
+
+
+       </div>
+
+
+    </div>
+
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.ID" class="btn btn-primary">Edit</a>
+        <a asp-action="Catalog" class="btn btn-primary">Back to List</a>
+    </div>
+
+
+
+</div>
+

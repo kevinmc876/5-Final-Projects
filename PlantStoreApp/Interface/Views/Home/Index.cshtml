@@ -1,0 +1,153 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+
+    <style>
+
+        .banner {
+            background-image: url('https://images.pexels.com/photos/1379630/pexels-photo-1379630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace with your image URL */
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            margin-left: -50px;
+            padding-inline: 25%;
+            /* margin-top:-10px; */
+            z-index: -1;
+        }
+
+            .banner h1 {
+                font-size: 2em;
+                color: white;
+            }
+
+            .banner p {
+                font-size: 18px;
+                color: white;
+            }
+
+        section {
+            padding: 20px;
+            margin-block: 150px;
+        }
+
+        .button {
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+            .button a {
+                color: white;
+                font-size: 20px;
+            }
+
+            .button:hover {
+                font-size: 20px;
+                background-color: rgb(120, 187, 120);
+            }
+
+
+            .button a:hover {
+                color: white;
+            }
+
+        section{
+            position:absolute;
+            top:60%;
+
+        }
+
+
+        .plant-care {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .care-point {
+            flex: 0 0 45%; /* Adjust the width as needed */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+    </style>
+</head>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+<div class="banner container-fluid flex-lg-wrap">
+    <h1>Discover Botanic Bliss</h1>
+    <p>
+        Embrace nature's beauty with our exquisite collection of botanical wonders. Explore now for a serene experience!
+        <br /> <br />
+        <button class="btn btn-primary button">
+            <a class="nav-link" asp-controller="Plants" asp-action="Index">Get Started!</a>
+        </button>
+    </p>
+</div>
+
+
+
+
+<section>
+    <center class="ml-4">
+        <h1 style=" font-size:30px; font-weight:600; margin-left: -500px; margin:15px;">Fun Facts on Plant Care</h1>
+        
+    </center>
+    <div class="plant-care">
+        <div class="care-point">
+            <h3>1. Watering</h3>
+            <p>Determine the specific watering needs of each plant. Consider factors like species, soil moisture, climate, and season. Avoid overwatering or underwatering, and ensure proper drainage.</p>
+        </div>
+        <div class="care-point">
+            <h3>2. Light</h3>
+            <p>Provide adequate light based on the plant's requirements. Some need direct sunlight, while others thrive in shade or indirect light. Monitor and adjust light exposure accordingly.</p>
+        </div>
+        <div class="care-point">
+            <h3>3. Soil and Potting</h3>
+            <p>Choose appropriate soil for the plant species. Ensure good drainage and use pots with suitable sizes. Repot when necessary to accommodate growth.</p>
+        </div>
+        <div class="care-point">
+            <h3>4. Fertilizing</h3>
+            <p>Use fertilizers to provide essential nutrients. Follow instructions and avoid over-fertilizing, as it can harm plants. Apply fertilizer during the growing season.</p>
+        </div>
+        <div class="care-point">
+            <h3>5. Pruning and Trimming</h3>
+            <p>Regularly prune dead or damaged parts to encourage healthy growth. Maintain the plant's shape and size through trimming and remove wilted flowers to encourage new blooms.</p>
+        </div>
+        <div class="care-point">
+            <h3>6. Pest and Disease Control</h3>
+            <p>Monitor plants for pests and diseases. Use natural remedies or appropriate treatments to control pests and address diseases promptly to prevent spreading.</p>
+        </div>
+        <div class="care-point">
+            <h3>7. Temperature and Humidity</h3>
+            <p>Understand the temperature and humidity needs of your plants. Keep them in suitable environments and protect them from extreme conditions or sudden temperature changes.</p>
+        </div>
+        <div class="care-point">
+            <h3>8. Monitoring and Care Routine</h3>
+            <p>Regularly observe your plants for signs of issues. Establish a care routine including watering schedules, checking for pests, and providing necessary care based on individual plant needs.</p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- Link Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

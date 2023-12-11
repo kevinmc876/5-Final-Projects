@@ -1,0 +1,160 @@
+html {
+  font-size: 11px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+/* Body styles */
+
+
+/* Button, form, and link focus styles */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* HTML styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Body margin */
+body {
+    margin-bottom: 60px;
+}
+
+/* Form styles */
+
+
+/* Navbar styles */
+:root {
+    --main-bg-color: #EEFAE7E7; 
+    --secondary-text-color: #5e503f; 
+    --text-color: rgb(55, 71, 69);
+    --hover-bg-color: #88D1C5; 
+    --hover-text-color: #EC5353; 
+}
+
+
+/* Navbar style */
+nav {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    padding: 15px;
+    font-weight: 300;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+    nav a,
+    nav li a {
+        font-weight: 300;
+    }
+
+/* Navbar brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.dropdown,
+.dropdown a,
+.dropdown li {
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.navbar-brand i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+/* Navbar toggler icon color */
+.navbar-toggler-icon {
+    color: var(--text-color);
+}
+
+/* Dropdown items */
+.dropdown-menu {
+    background-color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.dropdown-item {
+    color: var(--text-color);
+}
+
+    .dropdown-item:hover {
+        color: var(--secondary-text-color);
+    }
+
+/* Navigation links */
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    .nav-link:hover {
+        color: var(--secondary-text-color);
+    }
+
+/* Apply styles to other elements as needed */
+/* For example, the headings (h1, h2, h3) and other specific elements */
+h1,
+h2,
+h3 {
+    color: var(--text-color);
+    /* Additional styles for headings */
+}
+
+/* Example div style */
+.example-div {
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+/* Unchecked checkbox styles */
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+    /* Custom checkbox design */
+    label:before {
+        content: "\f0c8"; /* Default Font Awesome icon (unchecked) */
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #ccc;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+
+

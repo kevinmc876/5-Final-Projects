@@ -1,0 +1,172 @@
+﻿@model IEnumerable<Interface.Models.Plant>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<head>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Wt/1C9YXL3tA6m0enLApBUib+O4laBS0VcU5ZPc3ayF67l4TB4wFUKIHrPU/eVUKtf37Br8Z+s9eyl0R2WpVUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Other CSS or meta tags -->
+
+
+</head>
+
+<content id="" class="content">
+    <section>
+
+
+
+        <div class="card-container">
+
+
+            @foreach (var item in Model)
+            {
+                <div>
+
+
+                    <div class="card shadow mb-7">
+                        <img src="@Html.DisplayFor(modelItem => item.ImageURL)" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                            <p class="card-text">Age: @Html.DisplayFor(modelItem => item.Age)</p>
+                        <p> Available</p>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="@Url.Action("Details", new { id = item.ID })" class="detail-link">
+                                (i)
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            }
+
+        </div>
+    </section>
+</content>
+
+
+
+<style>
+
+    body{
+        overflow-x:hidden;
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        margin-bottom:120px;
+        gap: 30px;
+        width: 95%;
+        top: 15%;
+        left: 10%;
+        height: auto;
+        padding: 0px;
+        margin-left: -50px;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-block:150px;
+        margin-block:150px;
+        margin-left:-150px;
+   
+    }
+
+
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .card img {
+        width: 12rem;
+        height: 8rem;
+        border: 1px solid grey;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .card {
+        position: relative;
+        text-decoration: none;
+        background-color: rgb(237, 234, 212);
+        border-radius: 8px 8px 8px 8px;
+        /* Other styles for your card */
+    }
+
+    .card-overlay, .card-overlay:hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        color: white;
+        padding: 5px;
+        /* background-color: rgba(93, 92, 85, 0.80); */
+        text-decoration: none;
+        /* Other styles for your overlay */
+    }
+
+        .card-overlay:hover {
+            padding: 9px;
+        }
+
+
+    .card-title {
+        color: #b5904a;
+        font-size: 26px;
+    }
+
+    .card-overlay a {
+        color:black;
+        border:solid 4px white;
+        font-weight: bold;
+        /* Other styles for your overlay */
+    }
+
+    .card:hover .card-overlay {
+        display: block; /* Show the overlay on hover */
+    }
+
+
+    i{
+        font-size:12px;
+    }
+
+  
+    .detail-link{
+        border-radius:50%;
+        background-color:white;
+        color:black;
+        text-align: center;
+
+    }
+
+</style>
+
+
+<script>
+    // Assuming item.AvailabilityStatus holds the availability status value
+    var availabilityTextElement = document.getElementById("availabilityText");
+
+    // Check the availability status and set the text accordingly
+    if (availabilityStatus === "1" || availabilityStatus.toLowerCase() === "yes") {
+        availabilityTextElement.innerHTML += "Available";
+    } else {
+        availabilityTextElement.innerHTML += "Not Available";
+    }
+</script>
